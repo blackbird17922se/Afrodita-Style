@@ -1,0 +1,406 @@
+@import url(font.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    width: 100%;
+    position: relative;
+    padding-bottom: 180px;
+    padding-top: 0px;
+    background: url(../images/bg-bunner-2.jpg)center no-repeat;
+    background-size: cover;   
+}
+
+#navbar{
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    padding: 6px 40px;
+    float: left;
+}
+
+.sombra{
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e4e0e0',GradientType=0 );
+    box-shadow: 0px 0px 5px  #2e2d2d; /*SOMBRA: 0px a derecha 3px hacia abajo y 5px de tamaño*/
+}
+
+.shrink{
+    transition: all ease-in-out 0.8s;
+    background: #343433;
+    position: fixed;
+}
+
+.top{
+    transition: all ease-in-out 0.8s;
+}
+
+.logocont{
+    min-width: 250px;
+}
+
+#logo{
+    width: 50%;
+}
+
+.nav{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 20px 0px;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: poppins;
+    padding: 4px 12px;
+    margin: 0px 15px;
+}
+
+#hero{
+    padding-top: 300px;
+    text-align: center;
+}
+
+#hero h1{
+    font-size: 60px;
+	color: #fff;
+    text-transform: uppercase;
+    font-family: montserrat;
+}
+
+#hero p{
+    color: #fff;
+    font-family: poppinsrg;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.titulos1{
+    font-size: 45px;
+    font-family: montserratsb;
+    color: #151515;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.parinfo{
+    font-family: poppinslg;
+    color: #151515cc;
+    font-size: 15px;
+}
+
+#ofertas{
+    margin: 60px auto 100px;
+    text-align: center;
+    color: #151515;
+    float: none;
+}
+
+.ofertasec{
+    margin-top: 60px;
+    padding: 0px;
+}
+
+.imgcont{
+    min-width: 250px;
+    margin-top: 20px;
+}
+.ofertasec img{
+    width: 100%;
+    height: 400px;
+}
+
+.ofertasec h1{
+    font-size: 22px;
+    padding: 20px 0px;
+    margin: 0px;
+    font-family: montserratsb;
+}
+
+.ofertasec p{
+    color: #7240B2;
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-family: montserratrg;
+}
+
+#nosotros{
+    background-color: #323232;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+#nosotros h1{
+    color: #fff;
+    padding: 20px 0px;
+    text-align: left; 
+}
+
+#nosotros p{
+    color: #fff;
+    text-align: left; 
+}
+
+#nosotros img{
+    width: 70%;
+}
+
+#precios{
+    background: #f5f5f5;
+    min-width: 250px;
+    margin: 100px auto;
+}
+
+.menuprecios{
+    width: 100%;
+    margin: 50px auto;
+}
+
+#navprecios{
+    background: #323232;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+#navprecios li{
+    padding: 10px 30px;
+}
+
+#navprecios li a{
+    color: rgba(255, 255, 255, 0.733);
+    font-family: montserratmed;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#navprecios li a:hover{
+    color: #ffffff;
+}
+
+.tab-content{
+    background: #ffffff;
+    padding: 80px 10px 55px;
+}
+
+.tabinfo{
+    width: 62%;
+    text-align: left;
+    margin: 0px auto;
+}
+
+.item{
+    margin: 0px 0px 50px;
+}
+
+.item h2{
+    font-family: montserratsb;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #151515;
+}
+
+.item .precio{
+    color:#7240B2;
+    font-size: 14px;
+    font-family: montserratmed;  
+}
+
+.item p{
+    font-size: 15px;
+    font-family: poppinsrg;
+    color: #151515CC;
+}
+
+#contacto{
+    background: #343333;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+}
+
+
+#logoft{
+    width: 20%;
+    padding: 40px 0px;
+}
+
+#contacto ul{
+    list-style: none;
+}
+
+#contacto ul li{
+    padding: 5px 0px;
+    font-family: montserratmed;
+}
+
+#contacto h2{
+    font-family: montserratsb;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+
+.copy{
+    font-size: 15px;
+    font-family: poppinsrg;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 30px 0px 0px;
+
+}
+
+#bar, .icon-menu{
+    display: none;
+}
+
+#portafolio{
+    margin: 100px 0px;
+}
+
+.info{
+    text-align: center;
+    padding: 0px 30px;
+}
+
+/* .porta{
+    padding: 50px auto;
+
+} */
+
+.porta img{
+    width: 25%;
+    /* justify-content: space-between; */
+    padding: 10px 10px;
+
+}
+
+@media screen and (max-width:800px){
+    #bar{
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        top: 0;
+        background: #3c3c3c;
+        z-index: 300;
+        display: none;
+    }
+
+    .icon-menu{
+        display: block;
+        color: #fff;
+        font-size: 30px;
+        left: 20px;
+        margin-top: 18px;
+        position: absolute;
+        z-index: 20;
+    }
+
+    #inicio{
+        height: 70px;
+        position: fixed;
+        width: 100%;
+        background: #343433;
+        max-width: 100%;
+        top: 0;
+        z-index: 120;
+    }
+
+    #navbar{
+        width: 70%;
+        height: 100%;
+        position: fixed;
+        margin: 0;
+        transform: translateX(-100%);
+        background: #343433;
+        transform: all 0.8s ease-in;
+        z-index: 3;
+    }
+
+    .logocont{
+        display: none;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    .tit{
+        color: #fff;
+        text-decoration: none;
+        list-style: none;
+        margin-left: 50px;
+        padding: 0px;
+        position: fixed;
+        font-family: kuns;
+    }
+    
+    .tit:hover{
+        text-decoration: none;
+        color: #fff;
+    }
+
+
+    #navbar ul li{
+        display: block;
+        border-bottom: 1px solid rgba(225, 225, 255, 0.5);
+        padding: 10px 10px;
+        width: 300px;
+        text-align: center;
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+
+    #bar:checked ~ #navbar{
+        transform: translateX(0%);
+        transition: all 1.0s ease-out;
+        background: #343433f1;
+        z-index: 5;
+    }
+
+    #logoft{
+        width: 60%;
+        padding: 40px 0px;
+    }
+
+    .porta img{
+        width: 100%;
+    }
+
+}
+
+
+/* 
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fx{
+    background: blue;
+    margin: 20px;
+    min-width: 250px;
+    margin-bottom: 0px;
+} */
+
+

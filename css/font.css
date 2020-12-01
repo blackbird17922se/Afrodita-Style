@@ -1,0 +1,46 @@
+@font-face{
+    font-family: poppins;
+    src: url(../fonts/poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face{
+    font-family: poppinsmd;
+    src: url(../fonts/poppins/Poppins-Medium.ttf);
+}
+
+@font-face{
+    font-family: poppinsrg;
+    src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+
+@font-face{
+    font-family: poppinslg;
+    src: url(../fonts/poppins/Poppins-Light.ttf);
+}
+
+
+
+@font-face{
+    font-family: montserrat;
+    src: url(../fonts/Montserrat/Montserrat-Black.ttf);
+}
+
+@font-face{
+    font-family: montserratmed;
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face{
+    font-family: montserratsb;
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face{
+    font-family: montserratrg;
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: kuns;
+    src: url(../fonts/kuns/KUNSTLER.TTF);
+}
